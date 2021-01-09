@@ -1,0 +1,116 @@
+/* Background-Images */
+#background-image {
+    background: url("../images/background-images/background-desktop.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    border-radius: 0;
+}
+
+.game-container {
+    width: 432px;
+    height: 432px;
+    background-color: slategray;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.playingCard {
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    border: 0.5px solid black;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+.matched {
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    border: 3px solid green;
+    box-shadow:inset green 0 0 0 4px;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+
+.playingCard:hover {
+    border: none;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: inset yellow 0 0 0 4px;
+}
+/* 
+#resetBoard {
+    position: relative;
+    margin-left:47.5vw;
+    margin-top: 40vh;
+} */
+
+.red {
+    color:blue;
+    background-color: red;
+}
+
+.one {
+    background: url(/assets/images/background-images/type-1.jpg);
+    background-size: 100% 100%;
+}
+
+.two {
+    background: url(/assets/images/background-images/type-2.jpg);
+    background-size: 100% 100%;
+}
+
+.three {
+    background: url(/assets/images/background-images/type-3.jpg);
+    background-size: 100% 100%;
+}
+
+.four {
+    background: url(/assets/images/background-images/type-4.jpg);
+    background-size: 100% 100%;
+}
+
+.five {
+    background: url(/assets/images/background-images/type-5.jpg);
+    background-size: 100% 100%;
+}
+
+.six {
+    background: url(/assets/images/background-images/type-6.jpg);
+    background-size: 100% 100%;
+}
+
+.seven {
+    background: url(/assets/images/background-images/type-7.jpg);
+    background-size: 100% 100%;
+}
+
+.eight {
+    background: url(/assets/images/background-images/type-8.jpg);
+    background-size: 100% 100%;
+}
+
+.flipCard {
+    transform: rotateY(180deg);
+    background: url(/assets/images/back-side.png);
+}
+
+.flipCard:hover {
+    transform: none;
+    background: url(/assets/images/back-side.png);
+}
+
+
+.front-face {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+
+.game-info{
+    color: white;
+    text-align: center;
+}
